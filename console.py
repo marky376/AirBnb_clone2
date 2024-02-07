@@ -82,27 +82,4 @@ class HBNBCommand(cmd.Cmd):
         elif line not in ["BaseModel", "User", "Place", "State", "City", "Amenity", "Review"]:
             print("** class doesn't exist **")
         else:
-            print(eval(line).id)
-
-    def do_count(self, line):
-        if not line:
-            print("** class name missing **")
-        elif line not in ["BaseModel", "User", "Place", "State", "City", "Amenity", "Review"]:
-            print("** class doesn't exist **")
-        else:
-            print(eval(line).id)
-
-    def do_base(self, line):
-        print(eval(line).id)
-
-    def do_user(self, line):
-        print(eval(line).id)
-
-    def do_place(self, line):
-        print(eval(line).id)
-
-    def do_state(self, line):
-        print
-
-if __name__ == '__main__':
-    HBNBCommand().cmdloop()
+            prin
